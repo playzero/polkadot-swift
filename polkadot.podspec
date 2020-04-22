@@ -3,40 +3,22 @@
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
+# To learn more about a Podspec see https://guidespec.cocoapodspec.org/syntax/podspec.html
 #
 
-Pod::Spec.new do |s|
-  s.name             = 'polkadot'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of polkadot.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Pod::Spec.new do |spec|
+  spec.name             = 'polkadot'
+  spec.version          = '0.1.0'
+  spec.summary          = 'A swift client for Polkadot Network and Substrate based chains.'
+  spec.description      = <<-DESC
+  A fully-featured API for interfacing with Polkadot and Substrate chains in your swift based applicationspec.
                        DESC
-
-  s.homepage         = 'https://github.com/2075/polkadot'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '2075' => 'marco@one.io' }
-  s.source           = { :git => 'https://github.com/2075/polkadot.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'polkadot/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'polkadot' => ['polkadot/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  spec.homepage         = 'https://github.com/2075/polkadot-swift'
+  spec.license          = { :type => 'MIT', :file => 'LICENSE' }
+  spec.author           = { '2075' => 'marco@one.io' }
+  spec.source           = { :git => 'https://github.com/2075/polkadot-swift.git', :tag => spec.version.to_s }
+  spec.social_media_url = 'https://twitter.com/marcobahn'
+  spec.ios.deployment_target = '8.0'
+  spec.swift_version = '4.0'
+  spec.source_files = 'polkadot/Classes/**/*'
 end
