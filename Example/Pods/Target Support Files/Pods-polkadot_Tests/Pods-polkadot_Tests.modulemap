@@ -1,0 +1,6 @@
+framework module Pods_polkadot_Tests {
+  umbrella header "Pods-polkadot_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

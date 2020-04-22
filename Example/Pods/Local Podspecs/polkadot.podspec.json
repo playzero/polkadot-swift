@@ -1,0 +1,22 @@
+{
+  "name": "polkadot",
+  "version": "0.1.0",
+  "summary": "A short description of polkadot.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/2075/polkadot",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "2075": "marco@one.io"
+  },
+  "source": {
+    "git": "https://github.com/2075/polkadot.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "polkadot/Classes/**/*"
+}

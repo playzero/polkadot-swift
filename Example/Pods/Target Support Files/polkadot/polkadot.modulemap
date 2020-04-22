@@ -1,0 +1,6 @@
+framework module polkadot {
+  umbrella header "polkadot-umbrella.h"
+
+  export *
+  module * { export * }
+}
